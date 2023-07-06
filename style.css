@@ -1,0 +1,80 @@
+body{
+    
+}
+/* Positioning Layout */
+.container {
+    
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+.container-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{ 
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+
+}
+header{
+    background-color: rgb(240, 240, 240);
+    padding: 3rem;
+}
+
+
+/* --------typography------ */
+h1 {
+    margin: 0;
+    font-weight: 700;
+    color: #1972d2;
+ }
+.sub-title{
+    margin: 0;
+    color: red;
+    
+ }  
+
+ /* navigation */
+div ul {
+    font-size: 1.5rem;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+div ul li{
+    margin-left: 2rem;
+}
+
+div ul a{
+    text-decoration: none;
+    color: slategray;
+}
+div a:hover,
+div a:focus
+{
+    color: #1972d2;
+    border-bottom:0.3rem solid #1972d2;
+}
+
+@media (max-width: 650px) {
+    .container-div {
+        flex-direction: column;
+        
+    }
+    div ul{
+        flex-direction: column;
+        
+    }
+    div ul li {
+        text-align: center;
+        margin: 0.5rem;
+        border-radius: 5px;
+        
+    }
+    
+}
+    
